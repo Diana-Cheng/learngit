@@ -1,0 +1,277 @@
+/*--------------------------------主体结构css代码------------------------*/
+.qui-page{
+    width: 640px;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+}
+.qui-header{
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    background-color: #2bab79;
+}
+.container{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.qui-footerBasic{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+}
+.qui-asides{
+    position: absolute;
+    left: -200px;
+    top:0;
+    width:200px;
+}
+.qui-aside{
+    -webkit-transition: -webkit-transform 0.4s;
+    transition:transform 0.4s;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    position: fixed;
+    top:0;
+    width: 200px;
+    bottom: 0px;
+    overflow-y: scroll;
+    background-color: #2d3741;
+}
+.qui-asideHead{
+    padding:13px 10px 10px;
+}
+.qui-asideTool{
+    border-top: 9px solid #232d34;
+    background-color: #2d3741;
+}
+/*-----------------------------------主体顶部内容样式--------------------------*/
+.qui-header-menu{
+    float: left;
+    width: 100%;
+}
+.qui-icon{
+    display: inline-block;
+    height: 1em;
+    font-family: 'Icons'!important;
+    line-height: 1;
+    font-style: normal;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased ;
+    font-smmothing:antialiased;
+}
+.qui-header p>a{
+    color: #fff;
+}
+.qui-header .qui-icon{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 44px;
+    color:#fff;
+}
+.qui-header-logo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align:center;
+    font-size: 20px;
+    line-height: 44px;
+    color:#fff;
+}
+.qui-header-logo img{
+    display: block;
+    margin: 0 auto;
+}
+/*---------------------------主体中部代码----------------------*/
+.qui-tabContent>div{
+    display: none;
+}
+.qui-tabContent>div.show{
+    display: block;
+}
+.plcRouteList{
+    boder-bottom:1px solid #e6e8ea;
+    background-color: #ffffff;
+    padding-left: 5px;
+}
+.plcRouteList li{
+    padding: 15px 5px 15px 0;
+    border-top:1px solid #e6e8ea;
+    position: relative;
+}
+.plcRouteList>li:first-child{
+    border-top: none;
+}
+.plcRouteList .pic{
+    display: block;
+    min-height: 150px;
+}
+.plcRouteList .bottom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    height: 50px;
+    padding: 30px 0 0 60px;
+    color:#fff;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1));
+    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1));
+    background: -ms-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1));
+    background: -o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1));
+    background: linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1));
+}
+.plcRouteList .bottom .face img{
+    display: block;
+    border-radius: 50%;
+}
+.plcRouteList .bottom .face{
+    float: left;
+    margin-left: -50px;
+    width: 38px;
+    height: 38px;
+    border:1px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: -9;
+}
+.plcRouteList .bottom .title{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 0px;
+}
+.plcRouteList .bottom .user{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -10px;
+}
+.plcRouteList .day{
+    position: absolute;
+    top:20px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(43,171,121,0.8);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #ffffff;
+}
+.plcRouteList .infos{
+    margin-top: 7px;
+}
+.plcRouteList .infos>div{
+    margin-bottom: 5px;
+    padding-left: 40px;
+}
+.plcRouteList .infos em{
+    float: left;
+    margin-left: -40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plcRouteList .infos p{
+    max-height: 48px;
+    overflow: hidden;
+}
+/*------------------------------------主体底部代码----------------------------*/
+.qui-footerBasic .copyright,.qui-footerBasic .switchStyle{
+    color: #9ea3ab;
+}
+.qui-footerBasic .switchStyle span{
+    margin-left: 30px;
+}
+.qui-footerBasic .switchStyle span:first-child{
+    margin-left: 0px;
+}
+/*---------------------------------------侧边栏代码-----------------------------*/
+.qui-asideHead .signBtn{
+    text-align: right;
+    line-height: 18px;
+    color: #ffffff;
+}
+.qui-asideHead .signBtn a{
+    color: #ffffff;
+}
+.qui-asideNav li{
+    border-top: 1px solid #232d34;
+    background-color: #36424b;
+}
+.qui-asideNav li:nth-child(even){
+    background-color: #364049;
+}
+.qui-asideNav a{
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ced1d5;
+}
+.qui-asideNav .qui-icon{
+    font-size: 18px;
+    margin-right: 19px;
+    color: #b6becb;
+}
+/*@font-face {
+    font-family: 'Icons';
+    src:url('');
+}
+.qui-icon_home:before{
+    content: "\f920";
+}
+.qui-icon_poiStrong:before{
+    content: "\f901";
+}
+.qui-icon_hotel:before{
+    content: "\f908";
+}
+.qui-icon_flight:before{
+    content: "\f909";
+}
+.qui-icon_reply_line:before{
+    content: '\f931';
+}
+.qui-icon_question:before{
+    content: "\f92d";
+}*/
+.qui-asideTool li{
+    border-top:1px solid #232d34;
+}
+.qui-asideTool a{
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ced1d5;
+}
+.qui-asideTool .qui-icon{
+    font-size: 18px;
+    margin-right: 19px;
+}
+.qui-asideTool_reply_line{
+    color: #9fceda;
+}
+
+
+
+
